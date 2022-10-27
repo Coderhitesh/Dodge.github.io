@@ -1,0 +1,490 @@
+/* Home Section */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container section */
+#container {
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: black;
+    position: static;
+}
+
+.comp-icon {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.comp-icon img {
+    margin: 3px;
+    padding: 6px;
+    height: 32px;
+}
+
+.comp-icon a {
+    margin: 4px;
+    padding: 6px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    margin: 1px 10px;
+    padding: 2px 115px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul a {
+    margin: 0px 33px;
+    margin-top: 11px;
+    padding: 1px 9px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+}
+
+.navbar ul a:hover {
+    background-color: gray;
+    color: black;
+    border-radius: 18px;
+}
+
+.searchbar input {
+    margin: 11px 16px;
+    width: 212px;
+    height: 33px;
+    border-radius: 16px;
+}
+
+/* Home Section  */
+#home {
+    display: flex;
+    background: url(../bg1.jpg)no-repeat center center/cover;
+    /* position: relative; */
+}
+
+#home-image {
+    width: 100%;
+}
+
+#side-box {
+    position: absolute;
+    top: 209px;
+    right: 100px;
+    color: white;
+}
+
+#side-box p {
+    margin-left: 103px;
+}
+
+/* Best Car Box  */
+
+#best-car-box {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#best-car-heading {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 49px;
+    font-size: 2rem;
+}
+
+.display {
+    margin: 2px 59px;
+    display: inline-block;
+
+}
+
+.detail {
+    text-align: center;
+}
+
+/* policy section  */
+
+#policy {
+    position: relative;
+    width: 100%;
+    margin-top: 38px;
+}
+
+.policy-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    /* font-size: 27px; */
+}
+
+#policy .upper-text p {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+/* Muscle Car section  */
+
+#muscle-car-box {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.heading-box {
+    text-align: center;
+    font-style: bold;
+    margin-bottom: 27px;
+}
+
+.heading {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+#muscle-car {
+    display: flex;
+    text-align: center;
+
+}
+
+#muscle-car img {
+    width: 607px;
+    margin: 12px;
+}
+
+.muscle-car-detail {
+    margin: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border-color: red;
+    width: 111px;
+    height: 30px;
+    font-weight: bold;
+}
+
+/* second policy  */
+
+#second-policy {
+    width: 100%;
+    position: relative;
+    margin-top: 27px;
+    margin-bottom: 18px;
+
+}
+
+.second-policy-detail {
+    position: absolute;
+    top: 54px;
+    right: 48px;
+
+}
+
+.second-policy-detail img {
+    width: 390px;
+}
+
+.upper-second-policy-text {
+    margin-top: 19px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.upper-second-policy-text {
+    font-size: 1.2rem;
+}
+
+.down-second-policy-text p {
+    color: white;
+    text-align: center;
+    margin: 4px;
+}
+
+.btn-box {
+    margin-top: 15px;
+    margin-left: 43px;
+}
+
+.btn-second {
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 112px;
+    height: 33px;
+    font-weight: bold;
+    margin-left: 33px;
+}
+
+/* last car section */
+
+#last-car-section {
+    display: flex;
+    margin-bottom: 17px;
+
+}
+
+#last-car-section img {
+    width: 400px;
+    margin: 14px 10px;
+}
+
+.second-display {
+    text-align: center;
+}
+
+.upper-last-car-detail {
+    margin-top: 21px;
+    font-weight: bold;
+}
+
+.down-last-car-detail {
+    /* margin-top: 26px; */
+    margin: 23px 25px;
+}
+
+.first-last-car-btn {
+    width: 202px;
+    height: 37px;
+    border: 2px solid rgb(198, 5, 5);
+    color: rgb(198, 5, 5);
+    background-color: white;
+}
+
+.second-last-car-btn {
+    width: 158px;
+    height: 37px;
+    border: 2px solid rgb(198, 5, 5);
+    color: rgb(198, 5, 5);
+    background-color: white;
+}
+
+.third-last-car-btn {
+    width: 140px;
+    height: 37px;
+    border: 2px solid rgb(198, 5, 5);
+    color: rgb(198, 5, 5);
+    background-color: white;
+}
+
+/* Dodge Amazon Section  */
+
+#dodge-amazon {
+    position: relative;
+    margin-top: 40px;
+}
+
+#amazon-dodge-detail {
+    position: absolute;
+    top: 108px;
+    left: 46px;
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 371px;
+    font-size: 1.1rem;
+}
+
+.dodge-amazon-detail{
+    color: white;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.dodge-amazon-btn{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 104px;
+    height: 40px;
+}
+
+/* section header  */
+
+#section-header{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 45px 29px;
+}
+
+/* dodge eshop section  */
+#dodge-eshop{
+    position: relative;
+}
+
+.dodge-eshop-detail{
+    position: absolute;
+    top: 92px;
+    left: 71px;
+    text-align: center;
+    width: 395px;
+
+}
+
+.dodge-eshop-text{
+    color: white;
+    font-size: 1rem;
+    margin: 12px 10px;
+}
+
+#dodge-eshop-first-btn{
+    width: 114px;
+    height: 40px;
+}
+
+#dodge-eshop-second-btn{
+    width: 194px;
+    height: 40px;
+}
+
+.eshop-first-second-btn{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+#copy-box{
+    text-align: center;
+    margin: 23px;
+}
+
+#copy-box img{
+    width: 90px;
+    width: 155px;
+}
+
+.copy-box-upper-text{
+    font-size: 1.9rem;
+    font-weight: bolder;
+    margin: 12px;
+}
+
+.copy-box-down-text{
+    width: 582px;
+    margin-left: 322px;
+}
+
+.copy-box-btn{
+    width: 221px;
+    height: 37px;
+    color: #df0404;
+    border: 2px solid #df0404;
+    margin: 23px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/* footer section  */
+
+footer{
+    background-color: black;
+}
+
+/* .footer-center{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 33px;
+    padding-top: 15px;
+    font-size: 1.2rem;
+} */
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-right: 77px;
+    margin-left: 77px;
+}
+
+.footer-same a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-same a:hover{
+    text-decoration: underline;
+}
+
+.footer-same a li{
+    margin-bottom: 12px;
+
+}
+
+.footer-same h5{
+    margin-bottom: 16px;
+}
+
+.footer-same{
+    margin: 60px 29px;
+}
+
+/* final block  */
+
+#pri-final-block{
+    background-color: black;
+    position: relative;
+}
+
+#sec-final-block{
+    background-color: black;
+    margin: 0px 105px;
+    
+}
+
+#left-final-link a{
+    list-style: none;
+}
+
+#left-final-link ul a img{
+    height: 30px;
+    margin: 8px;
+    margin-top: 18px;
+
+}
+
+#left-final-link ul{
+    display: flex;
+}
+
+#right-final-link ul{
+    display: flex;
+}
+
+#right-final-link {
+    position: absolute;
+    top: 15px;
+    right: 96px;
+}
+
+#right-final-link a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+#right-final-link li{
+    margin: 9px;
+    font-size: 0.7rem;
+}
+
+#copyright-information{
+    color: white;
+    width: 543px;
+    font-size: 0.7rem;
+}
